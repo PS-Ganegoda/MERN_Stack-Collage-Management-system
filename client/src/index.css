@@ -1,0 +1,226 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .navbar {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.modules{
+  color: #225B6E;
+  text-decoration: none;
+}
+
+
+
+table{
+  width: 100%;
+  padding-top: 20px;
+}
+th{
+  height: 70px;
+  text-align: center;
+  background-color: #4ea089;
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+td{
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+h1,h2{
+  padding-left: 10px;
+}
+
+/*form */
+label, input {
+  display: block;
+
+}
+
+label{
+  padding-left: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+/*containers for login*/
+.container{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .services{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container .services .card{
+  width: 330px;
+  text-align: center;
+  background: #2F4858;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container .services .card:hover{
+  background: #DEB887;
+}
+
+.container .services .card .content{
+  transition: 0.3s;
+}
+
+.container .services .card:hover .content{
+  transform: scale(1.07);
+}
+
+.container .services .card .content .icon{
+  padding: 5px 0;
+  color: white;
+}
+
+.container .services .card .content .icon i{
+  font-size: 40px;
+}
+
+.container .services .card:hover .content .title{
+  color: white;
+}
+
+.container .services .card .content .title{
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #E9FEF5;
+  transition: 0.3s;
+}
+
+.home1 h1{
+  margin-top: 0px;
+}
+
+.home1{
+  z-index: 1;
+  background: linear-gradient(-45deg, #1AAC83,#E7FFF4,#425E44,#2F4858);
+  background-size: 400% 400%;
+  width: 100%;
+  height: 100vh;
+  animation: animate 4s ease infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 0 50%;
+  }
+  0%{
+    background-position: 0 50%;
+  }
+}
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center button{
+  position: center;
+  font-size: 20px;
+}
+
+.center h1{
+  font-size: 40px;
+  color: #DEEA88;
+}
+
+.homeHead{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.viewhome{
+  padding-left: 20px;
+
+}
+
+
